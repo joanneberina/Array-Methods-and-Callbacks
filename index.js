@@ -143,6 +143,14 @@ function getAverageGoals(data) {
     return (awayGoals + homeGoals) / data.length;
 };
 
+// function getAverageGoals(data) {
+   
+//     const averageGoals = data.map((match) => {
+//          return (match["Home Team Goals"] + match["Away Team Goals"]) / 2;
+//     })
+//     return averageGoals;
+//  };
+
 console.log(getAverageGoals(fifaData));
 
 
